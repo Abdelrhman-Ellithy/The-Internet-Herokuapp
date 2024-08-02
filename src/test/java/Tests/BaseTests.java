@@ -16,6 +16,7 @@ public class BaseTests {
             case "Chrome": driver=new ChromeDriver(); break;
             case "Edge": driver=new EdgeDriver();break;
             case "Firefox": driver=new FirefoxDriver();break;
+            default : driver=new ChromeDriver();
         }
         home=new HomPage(driver);
     }
