@@ -14,10 +14,10 @@ public class HoverPage {
     }
 
     /**
-     * @param index starts at 1
+     * @param index starts at 1 ends at 3
      */
     public void hoverOverFigure(int index){
-        locator="(//div[@class='figure'])["+Integer.toString(index)+"]";
+        locator="(//div[@class='figure'])["+ Integer.toString(index)+ "]";
         actions.moveToElement(driver.findElement(By.xpath(locator))).perform();
     }
     public String getTitle(){
@@ -29,7 +29,7 @@ public class HoverPage {
         String path= driver.findElement(By.xpath(locator))
                 .findElement(By.className("figcaption"))
                 .findElement(By.tagName("a")).getAttribute("href");
-        return driver.getCurrentUrl()+path;
+        return "https://the-internet.herokuapp.com/"+path;
     }
     public boolean isCaptionDisplayed(){
         return driver.findElement(By.xpath(locator))

@@ -1,35 +1,28 @@
 package Tests;
 
 import Pages.LoginPage;
-import io.qameta.allure.Step;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 public class loginTests extends BaseTests {
+
+    @DataProvider(name= "invalidLoginData")
+            Object[][] getInvalidTestData(){
+        return new Object[][]{
+                {"tomsmith","hamada","Your password is invalid!"},
+                {"hamada","SuperSecretPassword!","Your username is invalid!"}
+        };
+    }
     LoginPage login;
-    @Step("tc001")
-    @Test(priority = 1)
-    public void invalidPassword(){
+    @Test(priority = 1, dataProvider = "invalidLoginData")
+    public void invalidLogin(String username, String password, String expectedMessage){
         login =home.clickFormAuthentication();
-        login.setUserName("tomsmith");
-        login.setPassword("hamada");
+        login.setUserName(username);
+        login.setPassword(password);
         var secureAreaPage=login.clickLoginBtn();
-        String actualMassege=secureAreaPage.getLoginMassega();
-        String expectedMassege="Your password is invalid!";
-        Assert.assertTrue(actualMassege.contains(expectedMassege));
+        String actualMessage=secureAreaPage.getLoginMassega();
+        Assert.assertTrue(actualMessage.contains(expectedMessage));
     }
-    @Step("tc002")
-    @Test(priority = 1)
-    public void invalidUsername(){
-        login =home.clickFormAuthentication();
-        login.setUserName("hamada");
-        login.setPassword("SuperSecretPassword!");
-        var secureAreaPage=login.clickLoginBtn();
-        String actualMassege=secureAreaPage.getLoginMassega();
-        String expectedMassege="Your username is invalid!";
-        Assert.assertTrue(actualMassege.contains(expectedMassege));
-    }
-    @Step("tc003")
     @Test(priority = 2)
     public void validLogin() {
         login = home.clickFormAuthentication();

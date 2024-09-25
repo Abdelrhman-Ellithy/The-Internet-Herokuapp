@@ -17,7 +17,6 @@ public class HoverPageTests extends BaseTests {
         hoverPage.hoverOverFigure(1);
         String  expectedResult="https://the-internet.herokuapp.com/users/1";
         String actualResult=hoverPage.getLink();
-        System.out.println(actualResult);
         Assert.assertTrue(actualResult.contains(expectedResult),"Incorrect Link");
     }
     @Test(priority = 2, dependsOnMethods = {"isCaptionDisplayed"})

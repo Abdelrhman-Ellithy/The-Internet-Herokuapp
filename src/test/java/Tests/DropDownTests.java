@@ -13,6 +13,5 @@ public class DropDownTests extends BaseTests {
         dropdownPage.dropDownSelect(option);
         String actualSelected=dropdownPage.dropDownGetSelected();
         Assert.assertEquals(option, actualSelected, "Not Correctly selected");
-        Thread.sleep(1000);
     }
 }

@@ -26,7 +26,7 @@ public class DragDropPage {
 
     public String getBoxText(int index) {
         switch (index){
-            case 1: return driver.findElement(By.id("column-a")).findElement(By.tagName("header")).getText();
+            case 1: return  driver.findElement(By.id("column-a")).findElement(By.tagName("header")).getText();
             case 2: return driver.findElement(By.id("column-b")).findElement(By.tagName("header")).getText();
             default: return "failed";
         }

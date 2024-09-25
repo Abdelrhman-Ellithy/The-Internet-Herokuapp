@@ -15,7 +15,7 @@ public class DropDownPage {
         dropdown.selectByVisibleText(option);
     }
     /**
-     * @param index starts at 1
+     * @param index starts at 1 ends at 2
      */
     public void dropDownSelect(int index){
         Select dropdown=new Select(driver.findElement(By.cssSelector("select#dropdown")));

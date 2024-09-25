@@ -38,9 +38,10 @@ public class AlertsTests extends BaseTests {
     public void correctPromptEntered(){
         AlertsPage alertsPage=home.clickAlerts();
         alertsPage.clickJsPrompt();
-        alertsPage.sendPrompt("Abdelrahman Ellithy");
+        String input="Abdelrahman Ellithy";
+        alertsPage.sendPrompt(input);
         alertsPage.alert_accept();
-        String expectedResult ="You entered: Abdelrahman Ellithy";
+        String expectedResult ="You entered: "+input;
         String actualResult=alertsPage.getResultMessage();
         Assert.assertTrue(actualResult.contains(expectedResult),"Sending Prompt failed");
     }

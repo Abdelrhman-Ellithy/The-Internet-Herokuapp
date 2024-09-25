@@ -40,6 +40,11 @@ public class HomPage {
         driver.findElement(By.partialLinkText("JavaScript Alerts")).click();
         return new AlertsPage(driver);
     }
+    public DynamicLoadingPage clickDynamicLoading(){
+        returnHome();
+        driver.findElement(By.partialLinkText("Dynamic Loading")).click();
+        return new DynamicLoadingPage(driver);
+    }
     private void returnHome(){
         driver.get(homeUrl);
     }
