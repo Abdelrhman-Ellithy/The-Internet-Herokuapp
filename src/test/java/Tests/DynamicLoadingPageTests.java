@@ -1,25 +1,24 @@
 package Tests;
 
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 public class DynamicLoadingPageTests extends BaseTests{
-    @Test
-    public void example1TextIsDisplayed() throws InterruptedException {
+    @DataProvider(name = "exampleIndex")
+    public Object[] [] getExampleIndex(){
+        return new Object[][]{
+                {1},
+                {2}
+        };
+    }
+    @Test(dataProvider = "exampleIndex")
+    public void example1TextIsDisplayed(int index) {
         var DynamicloadingPage=home.clickDynamicLoading();
-        var loadingExample1Page=DynamicloadingPage.clickExample(1);
+        var loadingExample1Page=DynamicloadingPage.clickExample(index);
         loadingExample1Page.clickStartBtn();
         String expectedResult="Hello World!";
         String actualResult=loadingExample1Page.getText();
-        Assert.assertEquals(actualResult,expectedResult,"Element Is not visable");
-    }
-    @Test
-    public void example2TextIsDisplayed() throws InterruptedException {
-        var DynamicloadingPage=home.clickDynamicLoading();
-        var loadingExample2Page=DynamicloadingPage.clickExample(2);
-        loadingExample2Page.clickStartBtn();
-        String expectedResult="Hello World!";
-        String actualResult=loadingExample2Page.getText();
-        Assert.assertEquals(actualResult,expectedResult,"Element Is not visable");
+        Assert.assertEquals(actualResult,expectedResult,"Element Is not visible");
     }
 }

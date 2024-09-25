@@ -13,7 +13,7 @@ public class LoadingExample1 {
     public LoadingExample1(WebDriver driver){
         this.driver=driver;
     }
-    public void clickStartBtn() throws InterruptedException {
+    public void clickStartBtn()  {
         driver.findElement(By.tagName("button")).click();
     }
     public String getText(){
