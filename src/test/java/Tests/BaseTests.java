@@ -41,14 +41,7 @@ public class BaseTests {
                 screenShot= camera.getScreenshotAs(OutputType.FILE);
                 Files.move(screenShot, new File("Test-Output/ScreenShots/Failed/"+result.getTestClass().getName()+"_"+result.getName()+".png"));
                 break;
-            case ITestResult.SUCCESS:
-                screenShot = camera.getScreenshotAs(OutputType.FILE);
-                Files.move(screenShot, new File("Test-Output/ScreenShots/Passed/" + result.getTestClass().getName() + "_" + result.getName() + ".png"));
-                break;
-            case ITestResult.SKIP :
-                screenShot= camera.getScreenshotAs(OutputType.FILE);
-                Files.move(screenShot, new File("Test-Output/ScreenShots/Skipped/"+result.getTestClass().getName()+"_"+result.getName()+".png"));
-                break;
+            default: break;
         }
     }
 }
