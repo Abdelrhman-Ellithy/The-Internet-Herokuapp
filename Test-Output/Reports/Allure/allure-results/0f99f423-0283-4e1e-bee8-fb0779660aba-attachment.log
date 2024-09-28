@@ -428,22 +428,3 @@ Total Execution Time is: 0 Min 17 Sec 588 Mills
 [0m
 2024-09-28 12:54:20 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
 2024-09-28 12:54:20 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
-2024-09-28 12:54:20 INFO  logsUtils - Log file successfully attached to the Allure report.
-2024-09-28 12:54:20 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-09-28 12:54:20 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-09-28 12:54:20 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-09-28 12:54:20 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
-2024-09-28 12:54:20 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
-2024-09-28 12:54:20 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 12:54:20 ERROR AllureLifecycle - Could not stop step: step with uuid 4993fd95-7e37-4191-8c7e-02650426ce71 not found
-2024-09-28 12:54:22 INFO  logsUtils - [92mCommand exited with code: 0[0m
-2024-09-28 12:54:22 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 12:54:22 ERROR AllureLifecycle - Could not stop step: step with uuid eb56b1d3-48eb-4da3-82c3-817d834ec867 not found
-2024-09-28 12:54:22 INFO  logsUtils - [94mGetting Timestamp: 2024-09-28-12-54-22PM[0m
-2024-09-28 12:54:22 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 12:54:22 ERROR AllureLifecycle - Could not stop step: step with uuid 4d5c0775-22f5-4810-83ef-d49b1ac79724 not found
-2024-09-28 12:54:22 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 12:54:22 ERROR AllureLifecycle - Could not stop step: step with uuid a03b9b85-344f-4da2-ba3d-00987f64d067 not found
-2024-09-28 12:54:23 INFO  logsUtils - [92mCommand exited with code: 0[0m
-2024-09-28 12:54:23 ERROR AllureLifecycle - Could not start step: no test case running
-2024-09-28 12:54:23 ERROR AllureLifecycle - Could not stop step: step with uuid 62d4f5f6-f99f-4b8a-a1c9-9a4571b04376 not found

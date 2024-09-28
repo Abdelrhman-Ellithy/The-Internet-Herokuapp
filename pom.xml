@@ -12,7 +12,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <restversion>5.4.0</restversion>
-        <Ellithiumversion>1.0.2</Ellithiumversion>
+        <Ellithiumversion>1.0.3</Ellithiumversion>
     </properties>
     <repositories>
         <repository>

@@ -5,7 +5,6 @@ import Ellithium.DriverSetup.NonBDDSetup;
 import Pages.HomPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
-
 public class BaseTests extends NonBDDSetup {
     WebDriver driver;
     HomPage home;
