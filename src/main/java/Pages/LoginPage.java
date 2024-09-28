@@ -2,21 +2,20 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
+import static Ellithium.Utilities.DriverActions.*;
 public class LoginPage {
     WebDriver driver;
-
     public LoginPage(WebDriver driver) {
         this.driver=driver;
     }
     public void setUserName(String username){
-        driver.findElement(By.id("username")).sendKeys(username);
+        sendData(driver,By.id("username"),username);
     }
     public void setPassword(String password){
-        driver.findElement(By.id("password")).sendKeys(password);
+        sendData(driver,By.id("password"),password);
     }
     public SecureAreaPage clickLoginBtn(){
-        driver.findElement(By.tagName("button")).click();
+        clickOnElement(driver,By.tagName("button"));
         return new SecureAreaPage(driver);
     }
 

@@ -1,5 +1,6 @@
 package Tests;
 
+import Ellithium.Utilities.AssertionExecutor;
 import Pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
@@ -20,7 +21,7 @@ public class loginTests extends BaseTests {
         login.setPassword(password);
         var secureAreaPage=login.clickLoginBtn();
         String actualMessage=secureAreaPage.getLoginMassega();
-        Assert.assertTrue(actualMessage.contains(expectedMessage));
+        AssertionExecutor.hard.assertTrue(actualMessage.contains(expectedMessage));
     }
     @Test(priority = 2)
     public void validLogin() {
@@ -28,8 +29,8 @@ public class loginTests extends BaseTests {
         login.setPassword("SuperSecretPassword!");
         login.setUserName("tomsmith");
         var secureAreaPage=login.clickLoginBtn();
-        String actualMassege=secureAreaPage.getLoginMassega();
-        String expectedMassege="You logged into a secure area!";
-        Assert.assertTrue(actualMassege.contains(expectedMassege));
+        String actualMessage=secureAreaPage.getLoginMassega();
+        String expectedMessage="You logged into a secure area!";
+        AssertionExecutor.hard.assertTrue(actualMessage.contains(expectedMessage));
     }
 }

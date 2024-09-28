@@ -2,6 +2,7 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import static Ellithium.Utilities.DriverActions.*;
 
 public class AlertsPage {
     WebDriver driver;
@@ -9,28 +10,29 @@ public class AlertsPage {
         this.driver=driver;
     }
     public void clickJsAlert(){
-        driver.findElement(By.xpath("//button[@onclick=\"jsAlert()\"]")).click();
+        clickOnElement(driver,By.xpath("//button[@onclick=\"jsAlert()\"]"));
+
     }
     public void clickJsConfirm(){
-        driver.findElement(By.xpath("//button[@onclick=\"jsConfirm()\"]")).click();
+        clickOnElement(driver,By.xpath("//button[@onclick=\"jsConfirm()\"]"));
     }
     public void clickJsPrompt(){
-        driver.findElement(By.xpath("//button[@onclick=\"jsPrompt()\"]")).click();
+        clickOnElement(driver,By.xpath("//button[@onclick=\"jsPrompt()\"]"));
     }
     public void alert_accept(){
-        driver.switchTo().alert().accept();
+        acceptAlert(driver);
     }
     public void alert_Cancel(){
-        driver.switchTo().alert().dismiss();
+        dismissAlert(driver);
     }
     public void sendPrompt(String input){
-        driver.switchTo().alert().sendKeys(input);
+        sendDataToAlert(driver,input);
     }
     public String getAlertMessage(){
-       return driver.switchTo().alert().getText();
+       return getAlertText(driver);
     }
     public String getResultMessage(){
-        return  driver.findElement(By.id("result")).getText();
+        return  getText(driver,By.id("result"));
     }
 
 }
