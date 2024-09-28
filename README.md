@@ -15,35 +15,63 @@ This project automates test cases for various complex web elements on [The Inter
 ## Project Structure
 
 ```
-.
+The-Internet-Herokuapp
 ├── src
 │   ├── main
-│   │   └── java
-│   │       └── Pages
-│   │           ├── AlertsPage.java
-│   │           ├── DragDropPage.java
-│   │           ├── DropDownPage.java
-│   │           ├── DynamicLoadingPage.java
-│   │           ├── HomPage.java
-│   │           ├── HorizontalSliderPage.java
-│   │           ├── HoverPage.java
-│   │           ├── LoadingExample1.java
-│   │           ├── LoadingExample2.java
-│   │           ├── LoginPage.java
-│   │           └── SecureAreaPage.java
-│   └── test
-│       └── java
-│           └── Tests
-│               ├── AlertsTests.java
-│               ├── BaseTests.java
-│               ├── DragDropTests.java
-│               ├── DropDownTests.java
-│               ├── DynamicLoadingPageTests.java
-│               ├── HorizontalSliderTests.java
-│               ├── HoverPageTests.java
-│               └── loginTests.java
-├── pom.xml
+│   │   ├── java
+│   │   │   ├── Pages
+│   │   │   │   └── AlertsPage.java
+│   │   │   │   └── DragDropPage.java
+│   │   │   │   └── DropDownPage.java
+│   │   │   │   └── DynamicLoadingPage.java
+│   │   │   │   └── HomPage.java
+│   │   │   │   └── HorizontalSliderPage.java
+│   │   │   │   └── HoverPage.java
+│   │   │   │   └── LoadingExample1.java
+│   │   │   │   └── LoadingExample2.java
+│   │   │   │   └── LoginPage.java
+│   │   │   │   └── SecureAreaPage.java
+│   │   ├── resources
+│   │   │   ├── properties
+│   │   │   │   ├── default
+│   │   │   │   │   └── allure.properties
+│   │   │   │   │   └── config.properties
+│   │   │   │   │   └── log4j2.properties
+│   ├── test
+│   │   ├── java
+│   │   │   ├── Tests
+│   │   │   │   └── AlertsTests.java
+│   │   │   │   └── BaseTests.java
+│   │   │   │   └── DragDropTests.java
+│   │   │   │   └── DropDownTests.java
+│   │   │   │   └── DynamicLoadingPageTests.java
+│   │   │   │   └── HorizontalSliderTests.java
+│   │   │   │   └── HoverPageTests.java
+│   │   │   │   └── loginTests.java
+│   │   ├── resources
+│   │   │   ├── TestData
+├── Test-Output
+│   ├── Logs
+│   │   └── Test.log
+│   ├── Reports
+│   │   ├── Allure
+│   │   │   ├── allure-report
+│   │   │   │   └── Ellithium-Test-Report-2024-09-28-12-54-22PM.html
+│   │   │   ├── allure-results
+│   ├── ScreenShots
+│   │   ├── Failed
+├── .idea
+│   └── compiler.xml
+│   └── encodings.xml
+│   └── jarRepositories.xml
+│   └── misc.xml
+│   └── uiDesigner.xml
+│   └── vcs.xml
+│   └── workspace.xml
+│   └── .name
 └── TestNGRunner.xml
+└── pom.xml
+└── README.md
 ```
 
 ## Maven Dependencies
