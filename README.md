@@ -77,42 +77,11 @@ The-Internet-Herokuapp
 ## Maven Dependencies
 ```xml
 <dependencies>
-    <!-- Selenium Java -->
-    <dependency>
-        <groupId>org.seleniumhq.selenium</groupId>
-        <artifactId>selenium-java</artifactId>
-        <version>4.25.0</version>
-    </dependency>
-
-    <!-- SLF4J API -->
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-api</artifactId>
-        <version>${SLF4JAPIVersion}</version>
-    </dependency>
-
-    <!-- SLF4J Simple (for logging in tests) -->
-    <dependency>
-        <groupId>org.slf4j</groupId>
-        <artifactId>slf4j-simple</artifactId>
-        <version>${SLF4JSimpleVersion}</version>
-        <scope>test</scope>
-    </dependency>
-
-    <!-- TestNG -->
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.10.1</version>
-        <scope>test</scope>
-    </dependency>
-
-    <!-- Allure TestNG for generating reports -->
-    <dependency>
-        <groupId>io.qameta.allure</groupId>
-        <artifactId>allure-testng</artifactId>
-        <version>2.28.0</version>
-    </dependency>
+        <dependency>
+            <groupId>io.github</groupId>
+            <artifactId>Ellithium</artifactId>
+            <version>${Ellithiumversion}</version>
+        </dependency>
 </dependencies>
 ```
 
