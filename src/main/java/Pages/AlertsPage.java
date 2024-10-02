@@ -2,7 +2,7 @@ package Pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import static Ellithium.Utilities.DriverActions.*;
+import static Ellithium.Utilities.browser.DriverActions.*;
 
 public class AlertsPage {
     WebDriver driver;

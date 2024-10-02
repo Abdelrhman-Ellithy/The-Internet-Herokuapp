@@ -8,7 +8,6 @@ public class HomPage {
     private final String homeUrl="https://the-internet.herokuapp.com/";
     public HomPage(WebDriver driver){
         this.driver=driver;
-        returnHome();
     }
     public LoginPage clickFormAuthentication(){
         returnHome();

@@ -1,8 +1,7 @@
 package Tests;
 
-import Ellithium.Utilities.AssertionExecutor;
+import Ellithium.Utilities.assertion.AssertionExecutor;
 import Pages.LoginPage;
-import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 public class loginTests extends BaseTests {

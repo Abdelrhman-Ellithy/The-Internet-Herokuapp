@@ -11,30 +11,13 @@
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <restversion>5.4.0</restversion>
-        <Ellithiumversion>1.0.3</Ellithiumversion>
+        <Ellithiumversion>1.0.4</Ellithiumversion>
     </properties>
-    <repositories>
-        <repository>
-            <id>github</id>
-            <url>https://maven.pkg.github.com/Abdelrhman-Ellithy/Ellithium/</url>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </repository>
-    </repositories>
     <dependencies>
         <dependency>
-            <groupId>io.github</groupId>
-            <artifactId>Ellithium</artifactId>
+            <groupId>io.github.abdelrhman-ellithy</groupId>
+            <artifactId>ellithium</artifactId>
             <version>${Ellithiumversion}</version>
-        </dependency>
-        <!-- Rest Assured Dependencies -->
-        <dependency>
-            <groupId>io.rest-assured</groupId>
-            <artifactId>rest-assured</artifactId>
-            <version>${restversion}</version>
-            <scope>test</scope>
         </dependency>
     </dependencies>
     <build>
@@ -49,7 +32,6 @@
                     <target>21</target>
                 </configuration>
             </plugin>
-
             <!-- Maven Surefire Plugin for TestNG Execution -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -64,7 +46,6 @@
                     <failIfNoTests>false</failIfNoTests>
                 </configuration>
             </plugin>
-
             <!-- Exec Maven Plugin -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -78,7 +59,7 @@
                             <goal>java</goal>
                         </goals>
                         <configuration>
-                            <mainClass>Ellithium.Internal.StartUpLoader</mainClass>
+                            <mainClass>Ellithium.core.execution.Internal.Loader.StartUpLoader</mainClass>
                             <includePluginDependencies>true</includePluginDependencies>
                             <classpathScope>compile</classpathScope>
                         </configuration>

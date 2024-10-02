@@ -1,7 +1,7 @@
 package Tests;
 
-import Ellithium.DriverSetup.DriverFactory;
-import Ellithium.DriverSetup.NonBDDSetup;
+import Ellithium.core.driver.DriverFactory;
+import Ellithium.core.base.NonBDDSetup;
 import Pages.HomPage;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;

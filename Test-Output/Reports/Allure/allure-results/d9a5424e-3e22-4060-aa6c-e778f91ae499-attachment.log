@@ -135,14 +135,3 @@ Total Execution Time is: 0 Min 13 Sec 917 Mills
 [0m
 2024-10-03 00:24:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
 2024-10-03 00:24:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
-2024-10-03 00:24:52 INFO  logsUtils - Log file successfully attached to the Allure report.
-2024-10-03 00:24:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-10-03 00:24:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-10-03 00:24:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
-2024-10-03 00:24:52 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
-2024-10-03 00:24:52 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
-2024-10-03 00:24:52 INFO  logsUtils - [92mAttempting to execute command: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin\allure generate --single-file -o .\LastReport\ .\Test-Output/Reports/Allure/allure-results\[0m
-2024-10-03 00:24:55 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
-2024-10-03 00:24:55 INFO  logsUtils - [94mGetting Timestamp: 2024-10-03-12-24-55AM[0m
-2024-10-03 00:24:55 INFO  logsUtils - [92mAttempting to execute command: start Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-10-03-12-24-55AM.html[0m
-2024-10-03 00:24:55 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
