@@ -1,0 +1,137 @@
+2024-10-03 00:24:37 DEBUG BasicClientConnectionManager - Get connection for route {s}->https://api.github.com:443
+2024-10-03 00:24:37 DEBUG DefaultClientConnectionOperator - Connecting to api.github.com:443
+2024-10-03 00:24:37 DEBUG RequestAddCookies - CookieSpec selected: ignoreCookies
+2024-10-03 00:24:37 DEBUG RequestAuthCache - Auth cache not set in the context
+2024-10-03 00:24:37 DEBUG RequestTargetAuthentication - Target auth state: UNCHALLENGED
+2024-10-03 00:24:37 DEBUG RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2024-10-03 00:24:37 DEBUG DefaultHttpClient - Attempt 1 to execute request
+2024-10-03 00:24:37 DEBUG DefaultClientConnection - Sending request: GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1
+2024-10-03 00:24:37 DEBUG wire -  >> "GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1[\r][\n]"
+2024-10-03 00:24:37 DEBUG wire -  >> "Accept: */*[\r][\n]"
+2024-10-03 00:24:37 DEBUG wire -  >> "Host: api.github.com[\r][\n]"
+2024-10-03 00:24:37 DEBUG wire -  >> "Connection: Keep-Alive[\r][\n]"
+2024-10-03 00:24:37 DEBUG wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/21)[\r][\n]"
+2024-10-03 00:24:37 DEBUG wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-10-03 00:24:37 DEBUG wire -  >> "[\r][\n]"
+2024-10-03 00:24:37 DEBUG headers - >> GET /repos/Abdelrhman-Ellithy/Ellithium/releases/latest HTTP/1.1
+2024-10-03 00:24:37 DEBUG headers - >> Accept: */*
+2024-10-03 00:24:37 DEBUG headers - >> Host: api.github.com
+2024-10-03 00:24:37 DEBUG headers - >> Connection: Keep-Alive
+2024-10-03 00:24:37 DEBUG headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/21)
+2024-10-03 00:24:37 DEBUG headers - >> Accept-Encoding: gzip,deflate
+2024-10-03 00:24:38 DEBUG wire -  << "HTTP/1.1 200 OK[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Date: Wed, 02 Oct 2024 21:24:38 GMT[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Cache-Control: public, max-age=60, s-maxage=60[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Vary: Accept,Accept-Encoding, Accept, X-Requested-With[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "ETag: W/"320f223305e47e3b1c49f99702d04f8ba6f3c9c275f72f08dc6b3a93617ec0e7"[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Last-Modified: Mon, 30 Sep 2024 11:17:33 GMT[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-GitHub-Media-Type: github.v3; format=json[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "x-github-api-version-selected: 2022-11-28[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Strict-Transport-Security: max-age=31536000; includeSubdomains; preload[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-Frame-Options: deny[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-Content-Type-Options: nosniff[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-XSS-Protection: 0[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Content-Security-Policy: default-src 'none'[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Content-Encoding: gzip[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Server: github.com[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-RateLimit-Limit: 60[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-RateLimit-Remaining: 59[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-RateLimit-Reset: 1727907878[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-RateLimit-Resource: core[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-RateLimit-Used: 1[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Accept-Ranges: bytes[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "Content-Length: 682[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "X-GitHub-Request-Id: A546:178248:BDD10BB:C017B88:66FDBA15[\r][\n]"
+2024-10-03 00:24:38 DEBUG wire -  << "[\r][\n]"
+2024-10-03 00:24:38 DEBUG DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+2024-10-03 00:24:38 DEBUG headers - << HTTP/1.1 200 OK
+2024-10-03 00:24:38 DEBUG headers - << Date: Wed, 02 Oct 2024 21:24:38 GMT
+2024-10-03 00:24:38 DEBUG headers - << Content-Type: application/json; charset=utf-8
+2024-10-03 00:24:38 DEBUG headers - << Cache-Control: public, max-age=60, s-maxage=60
+2024-10-03 00:24:38 DEBUG headers - << Vary: Accept,Accept-Encoding, Accept, X-Requested-With
+2024-10-03 00:24:38 DEBUG headers - << ETag: W/"320f223305e47e3b1c49f99702d04f8ba6f3c9c275f72f08dc6b3a93617ec0e7"
+2024-10-03 00:24:38 DEBUG headers - << Last-Modified: Mon, 30 Sep 2024 11:17:33 GMT
+2024-10-03 00:24:38 DEBUG headers - << X-GitHub-Media-Type: github.v3; format=json
+2024-10-03 00:24:38 DEBUG headers - << x-github-api-version-selected: 2022-11-28
+2024-10-03 00:24:38 DEBUG headers - << Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset
+2024-10-03 00:24:38 DEBUG headers - << Access-Control-Allow-Origin: *
+2024-10-03 00:24:38 DEBUG headers - << Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+2024-10-03 00:24:38 DEBUG headers - << X-Frame-Options: deny
+2024-10-03 00:24:38 DEBUG headers - << X-Content-Type-Options: nosniff
+2024-10-03 00:24:38 DEBUG headers - << X-XSS-Protection: 0
+2024-10-03 00:24:38 DEBUG headers - << Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
+2024-10-03 00:24:38 DEBUG headers - << Content-Security-Policy: default-src 'none'
+2024-10-03 00:24:38 DEBUG headers - << Content-Encoding: gzip
+2024-10-03 00:24:38 DEBUG headers - << Server: github.com
+2024-10-03 00:24:38 DEBUG headers - << X-RateLimit-Limit: 60
+2024-10-03 00:24:38 DEBUG headers - << X-RateLimit-Remaining: 59
+2024-10-03 00:24:38 DEBUG headers - << X-RateLimit-Reset: 1727907878
+2024-10-03 00:24:38 DEBUG headers - << X-RateLimit-Resource: core
+2024-10-03 00:24:38 DEBUG headers - << X-RateLimit-Used: 1
+2024-10-03 00:24:38 DEBUG headers - << Accept-Ranges: bytes
+2024-10-03 00:24:38 DEBUG headers - << Content-Length: 682
+2024-10-03 00:24:38 DEBUG headers - << X-GitHub-Request-Id: A546:178248:BDD10BB:C017B88:66FDBA15
+2024-10-03 00:24:38 DEBUG DefaultHttpClient - Connection can be kept alive indefinitely
+2024-10-03 00:24:38 DEBUG RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+2024-10-03 00:24:38 DEBUG wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xad][0x95]ao[0xda]0[0x10][0x86][0xff][0x8a][0xe5]~C[0x84][0x10][0xa0]c[0x8d]4U[0xdd][0xda]I[0xd3][0xb4]v[0xea][0xb6]J[[ENr$V[0x9d]8[0xb2][0x1d][0x18]D[0xfd][0xef];[0x87]@[0xdb]"
+2024-10-03 00:24:38 DEBUG wire -  << "P[0xb6][0xe][0xfa][0x1]![0x8c][0xef]9[0xdf][0xfb][0x9e][0xcf][0x15]-[0x95][0xa0]>M[0x8d])[0xb4][0xef][0xba][0xac][0xe0][0xbd][0x84][0x9b][0xb4][0xc]{[0x91][0xcc]\[0x5][0x85][0xd4][0xee]I[0x18][0x83]Pi[0xc6]r[0xe7]L[0x8][0xfc]w[0xee].[0xbf]yi[0xb7][0x8]`[0x1a][0xb4][0xeb][0x8d][0xc7][0x87]c[0xef][0xcd][0xd1][[0xda][0xa5]Lk0:x}[0xb6][0xbb]$c[0x8a][0xb2][0x10][0x92][0xc5][0xad][0x14][0xcb]E[0xbd]w[0x9]M[0x9a][0xea]8g[0x19]t[0x5][0xb]A[0xdc]c[0xce][0xd4]d[0xa2][0x95][0xf1][0x91]X/[0x93][0xc9][0xb0][0xe4]A=[0xe7][0xca][0xf1]z[0xfd][0xde][0x8][0xd9]<[0xa6][0xfe]ZBT[0xb0]4[0xa9]T[0xd4][0xaf][0xa8][0x90][0x9][0xcf][0xd1][0xa2]M[0xfc]*j[0xe0][0xf5][0xf]G[0x83][0xa3]Q[0x97][0xe6]2[0x86][0xc0][0x92][0xe8][0x8f][0xe0].9[0xbd]x[0xbf][0x88][0xee][0xae][0x12]k[0xc8][0x94][0x19][0xa6][0xda][0x86][0xd4][0x8b]+[0xb5]J[\r]*[0x92][0xb9][0x81][0xdc][0xd4][0xde][0x97][0xae][0xb7][0x2][0x1f]O[0xdf][0xd9]#&[0xaa][0xc1][0xd4][0x19][0xac][0x7][0xeb][0x1d][0xcb]{[0xae]wv[0xd0][0x11]C&R[0x8]9Cb[0xbb][0x86][0xa7][\r][0xbb]-[0xa9][0xbb][0x8e]_[0xb3]x[0x9e][0xec][0xc5][0xc2][0xf8][0xca][0x95]&[0x5][0x94][0x15]K[0xb5][0xfd][0x91]p[0xfd][0xaf][0xae][0xdf]z[0xc0]:[0xb6]r[0xed][0x17]:hi[0x1a][0xcd]Q[0xd0]n[0xf1][0xd6][\r][0xdd][0xca]k[0xa2][0xf1][0x88][0xb3][0x1c]OW[0xd5]w[0xb9][0xc6][0x96][0xa1][0x8e][0x14]/[0xc][0x97][0xf9][0xae]j>a S[0xaa][0x84][0xe5]|[0xc1][0xf6]a"C#[0xaa][0x1e]9;[0x1a]S[0xc7]"[0x3][0xa6][0xd8][0xc4][0xbb]B[0x96][0xc1][0x95][(>e[0xd1][0xdc]J[0xa6] [0x2]>E+[0xf6][0x2][0xb7]([0xc8]5[0xf3][0x2][0xec]][0xc5][0xf6][0xb1][0xc6]p[0x3][0x1][0x8b]3{[0xdb]'Lh[0xb8]|[0xa1]/[0xcf][0x82][0xbb][0xd9][0xe9][0xc5][0x17]3[0xff][0xb6][0x88]F[0x9f][0xc5][0xcf]xn[0x9],[0x9][0xec][0x8c]B[0xca]z$?[0x1a]*[0xd8]A[0x9][0x98][0x0][0xaf]s[0xc6][\r][0xd7])n[0xcb][0x18][0xf2][0x11][0xbc]=(Vlb[0x9a]#ti[0xa1][0xa0][0x19][0xf1][0xeb][0xa5]H[0x1]3[0xa8][0x6][0xc3]]t[0xd0][0x1f][0x8c][0x9c][0xfe][0x91]3[0xec][0xf7]<[0xdf][0x1b][0xf8][0xde][0xf0][0x17][0xf2][0x8b]2[0x14][0x98]p[0xcb][0xae][0xb1]?[0xac]w5[0xd3][0xdc][0xbf][0xbe][0xb5][0xa5][0xa8][0x90][0x89][0xf6]|[0xfd][0xff][0x7][0xa9][0xe1]<;d[0x17][0xbc]x[0x95][0x1c][\r][0xe7][0xd9][0x1c][0xa1]Dg|zp@.[0x97]O#9[0x97][0x6]4q[0xc8][0xf5][0x86]E[0xb7]v[0xf5]A[0xc1][0xdb][0x1b]u[0x93][0xdb][0xcf][0x1]F[0x9f][0xc3][0x8c]|[0xe4][0xbf]A[0xfb]v[0xc5]![0x9d]N[0xfd][0x8b]|e&%[0x9f][0xb4].[0x81][0x9c]L[0xc](r[0x16][0xa3][0xb7]yBp[0x14][0x11]k[0xab].X[0x4][0x9d][0xce][0x8a][0x85]q[0xa5][0x10][0xe4]C[0xca][0xf2][0x4][0xf0]1[0xe9]t|[0xb2]z[0xee]_[0xfa]za[0x3][0x15]L[0xc1]F[0xbd][0xc3]^[0xaf][0xb7]Q[0x14][0xbd][0xff][0x3][0xa0]Q[[0x99]V[0x8][0x0][0x0]"
+2024-10-03 00:24:38 DEBUG RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+2024-10-03 00:24:38 DEBUG BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7bee8621
+2024-10-03 00:24:38 DEBUG BasicClientConnectionManager - Connection can be kept alive indefinitely
+2024-10-03 00:24:38 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-10-03 00:24:38 INFO  logsUtils - [94m----------------------------------------------[0m
+2024-10-03 00:24:38 INFO  logsUtils - [96m------- Ellithium  Engine Setup  -------------[0m
+2024-10-03 00:24:38 INFO  logsUtils - [94m----------------------------------------------[0m
+2024-10-03 00:24:38 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\allure[0m
+2024-10-03 00:24:38 INFO  logsUtils - [96m[ALL TESTS STARTED]: CROSS BROWSER CHROME [ALL TESTS STARTED][0m
+2024-10-03 00:24:38 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-10-03 00:24:38 INFO  logsUtils - [92mFirefox Options Configured[0m
+2024-10-03 00:24:45 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-10-03 00:24:45 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-10-03 00:24:45 INFO  logsUtils - [92mWebDriver Created[0m
+2024-10-03 00:24:45 INFO  logsUtils - [94m[START] TESTCASE FIREFOX-invalidLogin [STARTED][0m
+2024-10-03 00:24:45 INFO  logsUtils - [94mNavigating to URL: https://the-internet.herokuapp.com/[0m
+2024-10-03 00:24:48 DEBUG DefaultClientConnection - Connection 0.0.0.0:15980<->140.82.121.6:443 closed
+2024-10-03 00:24:48 INFO  logsUtils - [94mClicked on element: [0m
+2024-10-03 00:24:48 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-10-03 00:24:48 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\config[0m
+2024-10-03 00:24:48 INFO  logsUtils - [94mSent Data: "tomsmith" into Username.[0m
+2024-10-03 00:24:48 INFO  logsUtils - [94mSent Data: "hamada" into Password.[0m
+2024-10-03 00:24:48 INFO  logsUtils - [94mElement enabled: true[0m
+2024-10-03 00:24:49 INFO  logsUtils - [94mClicked on element: [0m
+2024-10-03 00:24:49 INFO  logsUtils - [94mHard Assert True - Condition is true: true[0m
+2024-10-03 00:24:49 INFO  logsUtils - [92m[PASSED] TESTCASE FIREFOX-invalidLogin [PASSED][0m
+2024-10-03 00:24:49 INFO  logsUtils - [94m[START] TESTCASE FIREFOX-invalidLogin [STARTED][0m
+2024-10-03 00:24:49 INFO  logsUtils - [94mNavigating to URL: https://the-internet.herokuapp.com/[0m
+2024-10-03 00:24:50 INFO  logsUtils - [94mClicked on element: [0m
+2024-10-03 00:24:50 INFO  logsUtils - [94mSent Data: "hamada" into Username.[0m
+2024-10-03 00:24:50 INFO  logsUtils - [94mSent Data: "SuperSecretPassword!" into Password.[0m
+2024-10-03 00:24:50 INFO  logsUtils - [94mElement enabled: true[0m
+2024-10-03 00:24:50 INFO  logsUtils - [94mClicked on element: [0m
+2024-10-03 00:24:50 INFO  logsUtils - [94mHard Assert True - Condition is true: true[0m
+2024-10-03 00:24:50 INFO  logsUtils - [92m[PASSED] TESTCASE FIREFOX-invalidLogin [PASSED][0m
+2024-10-03 00:24:50 INFO  logsUtils - [94m[START] TESTCASE FIREFOX-validLogin [STARTED][0m
+2024-10-03 00:24:50 INFO  logsUtils - [94mNavigating to URL: https://the-internet.herokuapp.com/[0m
+2024-10-03 00:24:51 INFO  logsUtils - [94mClicked on element: [0m
+2024-10-03 00:24:51 INFO  logsUtils - [94mSent Data: "SuperSecretPassword!" into Password.[0m
+2024-10-03 00:24:51 INFO  logsUtils - [94mSent Data: "tomsmith" into Username.[0m
+2024-10-03 00:24:51 INFO  logsUtils - [94mElement enabled: true[0m
+2024-10-03 00:24:51 INFO  logsUtils - [94mClicked on element: [0m
+2024-10-03 00:24:52 INFO  logsUtils - [94mHard Assert True - Condition is true: true[0m
+2024-10-03 00:24:52 INFO  logsUtils - [92m[PASSED] TESTCASE FIREFOX-validLogin [PASSED][0m
+2024-10-03 00:24:52 INFO  logsUtils - [94mWebDriver quit[0m
+2024-10-03 00:24:52 INFO  logsUtils - [92mCurrent Web Driver Quited [0m
+2024-10-03 00:24:52 INFO  logsUtils - [92mCurrent Web Driver removed [0m
+2024-10-03 00:24:52 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: CROSS BROWSER CHROME [ALL TESTS COMPLETED][0m
+2024-10-03 00:24:52 INFO  logsUtils - [94m-------------------------------------------[0m
+2024-10-03 00:24:52 INFO  logsUtils - [96m------- Ellithium  Engine TearDown  -------[0m
+2024-10-03 00:24:52 INFO  logsUtils - [94m-------------------------------------------[0m
+2024-10-03 00:24:52 INFO  logsUtils - [96m
+Total Execution Time is: 0 Min 13 Sec 917 Mills
+[0m
+2024-10-03 00:24:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
+2024-10-03 00:24:52 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\default\log4j2[0m
