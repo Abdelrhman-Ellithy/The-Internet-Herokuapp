@@ -6,7 +6,6 @@
     <groupId>org.example</groupId>
     <artifactId>The-Internet-Herokuapp</artifactId>
     <version>1.0-SNAPSHOT</version>
-
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
         <maven.compiler.target>21</maven.compiler.target>
@@ -69,9 +68,9 @@
         </plugins>
         <resources>
             <resource>
-                <directory>src/main/resources/properties/default</directory>
+                <directory>src/main/resources/properties</directory>
                 <includes>
-                    <include>**/*.properties</include>
+                    <include>**/*</include>
                 </includes>
             </resource>
         </resources>
