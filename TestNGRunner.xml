@@ -3,6 +3,7 @@
     <test name="Cross Browser Chrome">
         <parameter name="BrowserName" value="chrome"></parameter>
         <parameter name="PageLoadStrategy" value="Eager"></parameter>
+        <parameter name="HeadlessMode" value="true"></parameter>
         <classes>
             <class name="Tests.loginTests"/>
 <!--            <class name="Tests.AlertsTests"/>-->
