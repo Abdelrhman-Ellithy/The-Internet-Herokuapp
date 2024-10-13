@@ -1,7 +1,6 @@
 # The-Internet-Herokuapp
 
 ## Project Overview
-This project automates test cases for various complex web elements on [The Internet Herokuapp](https://the-internet.herokuapp.com/). The tests are built using Selenium WebDriver, following the Page Object Model (POM) design pattern, and generating detailed reports with Allure. Additionally, cross-browser testing is performed using TestNG to ensure compatibility across different web browsers.
 
 ## Key Features:
 - **Advanced Locators & Complex Web Element Interactions**: Automated test scripts utilize sophisticated locators and interact with dynamic and complex web elements.
