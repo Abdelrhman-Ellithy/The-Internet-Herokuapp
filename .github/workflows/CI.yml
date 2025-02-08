@@ -1,0 +1,38 @@
+name: CI Tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  UI-and-API-Tests:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        java-version: [21]
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK ${{ matrix.java-version }}
+        uses: actions/setup-java@v4
+        with:
+          java-version: ${{ matrix.java-version }}
+          distribution: 'zulu'
+
+      - name: Print Working Directory and Home Folder
+        run: |
+            echo "Working Directory: $(pwd)"
+            echo "Home Directory: $HOME"
+  
+      - name: Clean up previous test output
+        run: |
+          rm -rf Test-Output/Reports/*
+          rm -rf Test-Output/Logs/*
+          rm -rf Test-Output/ScreenShots/Failed/*
+          find Test-Output/UpdateChecker/ -type f ! -name 'checker.json' -delete
+
+      - name: Build and Run with Maven
+        run: mvn clean test

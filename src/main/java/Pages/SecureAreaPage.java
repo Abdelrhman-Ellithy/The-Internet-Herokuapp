@@ -8,7 +8,7 @@ public class SecureAreaPage {
     DriverActions driverActions;
     public SecureAreaPage(WebDriver Driver){
         driver=Driver;
-        driverActions=new DriverActions<>(driver);
+        driverActions=new DriverActions(driver);
     }
     public String getLoginMassega(){
         return driverActions.getText(By.id("flash"));

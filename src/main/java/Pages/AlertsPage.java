@@ -9,7 +9,7 @@ public class AlertsPage {
     DriverActions driverActions;
     public AlertsPage(WebDriver driver){
         this.driver=driver;
-        driverActions=new DriverActions<>(driver);
+        driverActions=new DriverActions(driver);
     }
     public void clickJsAlert(){
         driverActions.clickOnElement(By.xpath("//button[@onclick=\"jsAlert()\"]"));
@@ -21,16 +21,16 @@ public class AlertsPage {
         driverActions.clickOnElement(By.xpath("//button[@onclick=\"jsPrompt()\"]"));
     }
     public void alert_accept(){
-        driverActions.acceptAlert();
+        driverActions.acceptAlert(5);
     }
     public void alert_Cancel(){
-        driverActions.dismissAlert();
+        driverActions.dismissAlert(5);
     }
     public void sendPrompt(String input){
         driverActions.sendDataToAlert(input);
     }
     public String getAlertMessage(){
-       return driverActions.getAlertText();
+       return driverActions.getAlertText(5);
     }
     public String getResultMessage(){
         return  driverActions.getText(By.id("result"));

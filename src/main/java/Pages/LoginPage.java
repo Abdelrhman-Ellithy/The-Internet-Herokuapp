@@ -9,7 +9,7 @@ public class LoginPage {
     DriverActions driverActions;
     public LoginPage(WebDriver driver) {
         this.driver=driver;
-        driverActions=new DriverActions<>(driver);
+        driverActions=new DriverActions(driver);
     }
     public void setUserName(String username){
         driverActions.sendData(By.id("username"),username);

@@ -1,238 +1,215 @@
-2024-10-08 23:09:35 INFO  logsUtils - [94mGetting Timestamp: 2024-10-08[0m
-2024-10-08 23:09:35 INFO  logsUtils - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
-2024-10-08 23:09:35 INFO  logsUtils - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker[0m
-2024-10-08 23:09:35 INFO  logsUtils - [94m---------------------------------------------[0m
-2024-10-08 23:09:35 INFO  logsUtils - [96m------- Ellithium  Engine Setup -------------[0m
-2024-10-08 23:09:35 INFO  logsUtils - [94m---------------------------------------------[0m
-2024-10-08 23:09:35 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 23:09:35 INFO  logsUtils - [38;5;200m[ SUITE STARTED]: TEST SUITE [SUITE STARTED][0m
-2024-10-08 23:09:35 INFO  logsUtils - [95m[ALL TESTS STARTED]: CROSS BROWSER CHROME [ALL TESTS STARTED][0m
-2024-10-08 23:09:35 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 23:09:35 INFO  logsUtils - [92mChrome Options Configured[0m
-2024-10-08 23:09:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 23:09:37 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\config[0m
-2024-10-08 23:09:37 INFO  logsUtils - [92mWebDriver Created[0m
-2024-10-08 23:09:37 INFO  logsUtils - [94m[START] TESTCASE validLogin [STARTED][0m
-2024-10-08 23:09:37 INFO  logsUtils - [94mNavigating to URL: https://camo.githubusercontent.com/410001a1d57adc516e365c96f4c0bada27f59ef3ed8400f672b6a39a1fa41d5b/68747470733a2f2f6b6f6d617265762e636f6d2f67687076632f3f757365726e616d653d416264656c72686d616e2d456c6c697468792d456c6c69746869756d267374796c653d666c61742d73717561726526636f6c6f723d626c7565[0m
-2024-10-08 23:09:41 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:41 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:42 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:44 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:45 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:47 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:48 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:49 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:50 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:51 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:52 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:53 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:54 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:55 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:55 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:57 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:57 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:58 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:09:59 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:00 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:01 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:02 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:03 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:03 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:04 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:05 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:06 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:06 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:07 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:08 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:09 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:09 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:10 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:11 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:12 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:12 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:13 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:14 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:15 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:16 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:17 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:18 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:18 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:19 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:20 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:21 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:22 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:23 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:24 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:25 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:26 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:27 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:27 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:29 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:30 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:33 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:34 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:34 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:36 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:37 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:38 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:38 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:39 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:41 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:42 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:43 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:44 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:44 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:46 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:48 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:48 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:49 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:50 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:51 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:52 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:53 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:54 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:56 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:57 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:58 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:10:59 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:00 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:01 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:01 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:02 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:03 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:04 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:05 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:06 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:07 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:08 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:09 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:09 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:11 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:12 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:13 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:14 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:15 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:16 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:17 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:20 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:20 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:21 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:22 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:22 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:25 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:25 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:26 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:27 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:28 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:30 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:30 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:32 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:33 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:34 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:34 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:35 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:36 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:37 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:37 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:38 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:39 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:40 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:41 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:41 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:42 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:43 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:45 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:46 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:47 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:48 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:48 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:50 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:51 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:52 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:52 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:53 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:54 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:56 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:57 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:58 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:11:59 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:00 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:01 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:03 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:03 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:05 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:06 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:08 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:08 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:09 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:10 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:11 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:12 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:12 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:14 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:14 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:16 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:16 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:17 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:18 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:19 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:19 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:20 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:21 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:22 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:22 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:23 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:24 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:25 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:27 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:28 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:29 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:31 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:31 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:32 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:33 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:34 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:35 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:35 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:36 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:37 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:38 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:39 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:40 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:40 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:41 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:42 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:42 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:43 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:44 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:45 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:46 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:47 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:47 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:48 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:49 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:50 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:50 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:51 INFO  logsUtils - [94mPage refreshed[0m
-2024-10-08 23:12:51 INFO  logsUtils - [94m[PASSED] TESTCASE validLogin [PASSED][0m
-2024-10-08 23:12:51 INFO  logsUtils - [94mWebDriver quit[0m
-2024-10-08 23:12:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
-2024-10-08 23:12:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\log4j2[0m
-2024-10-08 23:12:51 INFO  logsUtils - Log file successfully attached to the Allure report.
-2024-10-08 23:12:51 INFO  logsUtils - [95m[ALL TESTS COMPLETED]: CROSS BROWSER CHROME [ALL TESTS COMPLETED][0m
-2024-10-08 23:12:51 INFO  logsUtils - [38;5;200m[SUITE FINISHED]: TEST SUITE [SUITE FINISHED][0m
-2024-10-08 23:12:51 INFO  logsUtils - [94m------------------------------------------[0m
-2024-10-08 23:12:51 INFO  logsUtils - [96m------- Ellithium  Engine TearDown -------[0m
-2024-10-08 23:12:51 INFO  logsUtils - [94m------------------------------------------[0m
-2024-10-08 23:12:51 INFO  logsUtils - [96mTotal Execution Time is: 3 Min 16 Sec 722 Mills[0m
-2024-10-08 23:12:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 23:12:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 23:12:51 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 23:12:51 INFO  logsUtils - [92mAllure folder exists at: C:\Users\lenovo\.m2\repository\allure-Ellithium[0m
-2024-10-08 23:12:51 INFO  logsUtils - [92mFound Allure binary directory: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin[0m
-2024-10-08 23:12:51 INFO  logsUtils - [92mAttempting to execute command: C:\Users\lenovo\.m2\repository\allure-Ellithium\-2.30.0\bin\allure generate --single-file --name "Test Report" -o .\LastReport\ .\Test-Output/Reports/Allure/allure-results\[0m
-2024-10-08 23:12:53 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
-2024-10-08 23:12:53 INFO  logsUtils - [94mGetting Timestamp: 2024-10-08-11-12-53PM[0m
-2024-10-08 23:12:53 INFO  logsUtils - [92mSuccessfully loaded properties file: src\main\resources\properties\allure[0m
-2024-10-08 23:12:53 INFO  logsUtils - [92mAttempting to execute command: start Test-Output\Reports\Allure\allure-report\Ellithium-Test-Report-2024-10-08-11-12-53PM.html[0m
-2024-10-08 23:12:54 INFO  logsUtils - [92mCommand executed successfully. Exit code: 0[0m
+2025-02-08 01:34:32 INFO  Logger - [94mGetting Timestamp: 2025-02-08[0m
+2025-02-08 01:34:32 INFO  Logger - [94mReading value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker.json[0m
+2025-02-08 01:34:32 INFO  Logger - [92mSuccessfully read value for key: LastRunDate from JSON file: Test-Output\UpdateChecker\checker.json[0m
+2025-02-08 01:34:32 INFO  Logger - [92mSuccessfully loaded properties file: src\main\resources\properties\config.properties[0m
+2025-02-08 01:34:32 INFO  Logger - [92mInitialize default Timeout for Element [0m
+2025-02-08 01:34:32 INFO  Logger - [92mSuccessfully loaded properties file: src\main\resources\properties\config.properties[0m
+2025-02-08 01:34:32 INFO  Logger - [92mInitialize default Polling Time for Element [0m
+2025-02-08 01:34:32 INFO  Logger - [92mSuccessfully loaded properties file: src\main\resources\properties\config.properties[0m
+2025-02-08 01:34:32 INFO  Logger - [92mInitialize default Implicit Wait for the Driver [0m
+2025-02-08 01:34:32 INFO  Logger - [92mSuccessfully loaded properties file: src\main\resources\properties\config.properties[0m
+2025-02-08 01:34:32 INFO  Logger - [94m---------------------------------------------[0m
+2025-02-08 01:34:32 INFO  Logger - [96m------- Ellithium Engine Setup --------------[0m
+2025-02-08 01:34:32 INFO  Logger - [94m---------------------------------------------[0m
+2025-02-08 01:34:32 INFO  Logger - [92mSuccessfully loaded properties file: src\main\resources\properties\allure.properties[0m
+2025-02-08 01:34:32 INFO  Logger - [38;5;200m[SUITE STARTED]: DEFAULT SUITE [SUITE STARTED][0m
+2025-02-08 01:34:32 INFO  Logger - [95m[ALL TESTS STARTED]: THE-INTERNET-HEROKUAPP [ALL TESTS STARTED][0m
+2025-02-08 01:34:32 INFO  Logger - [92mChrome Options Configured[0m
+2025-02-08 01:34:37 INFO  Logger - [92mSuccessfully loaded properties file: src\main\resources\properties\config.properties[0m
+2025-02-08 01:34:38 INFO  Logger - [92mDriver Created[0m
+2025-02-08 01:34:38 INFO  Logger - [94m[START] TESTCASE confirmAlertCancel [STARTED][0m
+2025-02-08 01:34:38 INFO  Logger - [94mNavigating to URL: https://the-internet.herokuapp.com/[0m
+2025-02-08 01:34:40 INFO  Logger - [95mLevel: error[0m
+2025-02-08 01:34:40 INFO  Logger - [38;5;200mText: Failed to load resource: net::ERR_NAME_NOT_RESOLVED[0m
+2025-02-08 01:34:40 INFO  Logger - [38;5;94mURL: Optional[https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1738971280470r0.13454721095211175&wxhr=true&t=1738971280476&f=298349752,318188263][0m
+2025-02-08 01:34:40 INFO  Logger - [93mStackTrace: Optional.empty[0m
+2025-02-08 01:34:45 INFO  Logger - [95mLevel: error[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;200mText: Failed to load resource: the server responded with a status of 404 (Not Found)[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;94mURL: Optional[https://the-internet.herokuapp.com/favicon.ico][0m
+2025-02-08 01:34:45 INFO  Logger - [93mStackTrace: Optional.empty[0m
+2025-02-08 01:34:45 INFO  Logger - [95mLevel: error[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;200mText: Failed to load resource: net::ERR_NAME_NOT_RESOLVED[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;94mURL: Optional[https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1738971280470r0.13454721095211175&wxhr=true&t=1738971285214&f=298349752,318188263][0m
+2025-02-08 01:34:45 INFO  Logger - [93mStackTrace: Optional.empty[0m
+2025-02-08 01:34:45 INFO  Logger - [95mLevel: error[0m
+2025-02-08 01:34:45 INFO  Logger - [95mLevel: error[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;200mText: Failed to load resource: net::ERR_NAME_NOT_RESOLVED[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;200mText: Failed to load resource: net::ERR_NAME_NOT_RESOLVED[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;94mURL: Optional[https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1738971280470r0.13454721095211175&wxhr=true&t=1738971285214&f=298349752,318188263][0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;94mURL: Optional[https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2Fjavascript_alerts&u=oeu1738971280470r0.13454721095211175&wxhr=true&t=1738971285515&f=298349752,318188263][0m
+2025-02-08 01:34:45 INFO  Logger - [93mStackTrace: Optional.empty[0m
+2025-02-08 01:34:45 INFO  Logger - [93mStackTrace: Optional.empty[0m
+2025-02-08 01:34:45 INFO  Logger - [95mLevel: error[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;200mText: Failed to load resource: net::ERR_NAME_NOT_RESOLVED[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;94mURL: Optional[https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=https%3A%2F%2Fthe-internet.herokuapp.com%2F&u=oeu1738971280470r0.13454721095211175&wxhr=true&t=1738971280476&f=298349752,318188263][0m
+2025-02-08 01:34:45 INFO  Logger - [93mStackTrace: Optional.empty[0m
+2025-02-08 01:34:45 INFO  Logger - [94mClicked on element: [0m
+2025-02-08 01:34:45 INFO  Logger - [94mClicked on element: [0m
+2025-02-08 01:34:45 INFO  Logger - [95mLevel: error[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;200mText: Failed to load resource: net::ERR_NAME_NOT_RESOLVED[0m
+2025-02-08 01:34:45 INFO  Logger - [38;5;94mURL: Optional[https://298279967.log.optimizely.com/event?a=298279967&d=298279967&y=false&n=engagement&g=298283957&u=oeu1738971280470r0.13454721095211175&wxhr=true&t=1738971285877&f=298349752,318188263][0m
+2025-02-08 01:34:45 INFO  Logger - [93mStackTrace: Optional.empty[0m
+2025-02-08 01:34:45 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:46 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:46 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:46 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:46 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:47 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:47 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:47 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:47 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:47 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:48 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:48 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:48 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:48 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:48 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:49 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:49 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:49 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:49 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:50 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:50 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:50 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:50 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:50 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:51 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:51 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:51 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:51 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:52 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:52 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:52 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:52 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:52 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:53 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:53 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:53 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:53 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:54 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:54 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:54 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:54 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:54 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:55 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:55 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:55 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:55 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:56 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:56 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:56 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:56 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:56 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:57 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:57 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:57 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:57 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:58 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:58 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:58 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:58 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:58 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:59 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:59 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:59 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:59 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:34:59 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:00 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:00 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:00 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:00 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:01 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:01 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:01 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:01 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:01 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:02 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:02 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:02 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:02 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:03 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:03 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:03 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:03 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:03 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:04 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:04 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:04 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:04 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:04 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:05 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:05 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:05 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:05 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:06 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:06 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:06 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:06 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:06 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:07 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:07 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:07 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:07 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:08 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:08 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:08 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:08 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:08 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:09 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:09 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:09 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:09 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:10 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:10 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:10 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:10 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:10 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:11 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:11 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:11 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:11 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:11 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:12 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:12 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:12 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:12 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:13 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:13 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:13 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:13 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:13 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:14 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:14 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:14 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:14 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:15 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:15 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:15 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:15 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:15 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:16 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:16 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:16 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:16 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:16 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:17 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:17 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:17 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:17 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:18 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:18 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:18 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:18 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:18 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:19 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:19 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:19 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:19 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:20 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:20 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:20 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:20 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:20 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:21 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:21 INFO  Logger - [94mHandling alert[0m
+2025-02-08 01:35:21 INFO  Logger - [94mHandling alert[0m

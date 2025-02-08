@@ -28,7 +28,7 @@ public class AlertsTests extends BaseTests {
     public void confirmAlertAccept(){
         AlertsPage alertsPage=home.clickAlerts();
         alertsPage.clickJsConfirm();
-        alertsPage.getAlertMessage();
+        //alertsPage.getAlertMessage();
         alertsPage.alert_accept();
         String expectedResult ="You clicked: Ok";
         String actualResult=alertsPage.getResultMessage();
