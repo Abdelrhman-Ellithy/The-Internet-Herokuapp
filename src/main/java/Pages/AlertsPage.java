@@ -14,7 +14,7 @@ public class AlertsPage {
     public void clickJsAlert(){
         driver.findElement(By.xpath("(//button)[1]")).click();
     }
-    public void clickJsConfirm() throws InterruptedException {
+    public void clickJsConfirm()  {
         driver.findElement(By.xpath("(//button)[2]")).click();
     }
     public void clickJsPrompt(){
