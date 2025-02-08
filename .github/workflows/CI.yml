@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 jobs:
-  UI-and-API-Tests:
+  UI-Tests:
     runs-on: macos-latest
     strategy:
       matrix:
@@ -34,33 +34,33 @@ jobs:
           rm -rf Test-Output/ScreenShots/Failed/*
           find Test-Output/UpdateChecker/ -type f ! -name 'checker.json' -delete
 
-      - name: Build and Run with Maven
-        run: mvn clean test
+      - name: Run Tests
+        run: mvn clean test -Dtest="loginTests,AlertsTests,HorizontalSliderTests,DropDownTests,DragDropTests,HoverPageTests,DynamicLoadingPageTests" -Dsurefire.parallel=classes -DthreadCount=7 -DdataProviderThreadCount=7
 
       - name: Upload Test Reports
         uses: actions/upload-artifact@v4
         with:
           name: Test-Reports
-          path: Test-Output/Reports/
+          path: ./Test-Output/Reports/
           retention-days: 30
 
       - name: Upload Test Logs
         uses: actions/upload-artifact@v4
         with:
           name: Test-Logs
-          path: Test-Output/Logs/
+          path: ./Test-Output/Logs/
           retention-days: 30
 
       - name: Upload Failed Screenshots
         uses: actions/upload-artifact@v4
         with:
           name: Failed-Screenshots
-          path: Test-Output/ScreenShots/Failed/
+          path: ./Test-Output/ScreenShots/Failed/
           retention-days: 30
 
       - name: Upload Update Checker
         uses: actions/upload-artifact@v4
         with:
           name: Update-Checker
-          path: Test-Output/UpdateChecker/
+          path: ./Test-Output/UpdateChecker/
           retention-days: 30

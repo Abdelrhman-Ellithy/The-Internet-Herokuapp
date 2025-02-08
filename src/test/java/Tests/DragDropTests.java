@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class DragDropTests extends BaseTests{
     @Test
-    public void textBoxesSwapped() throws InterruptedException {
+    public void textBoxesSwapped()  {
         var dragDrop= home.clickDragDrop();
         dragDrop.dragDropBox(1,2);
         String expectedResult="B";

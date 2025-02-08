@@ -7,8 +7,6 @@
     <artifactId>The-Internet-Herokuapp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
-        <maven.compiler.source>21</maven.compiler.source>
-        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <Ellithiumversion>2.0.0</Ellithiumversion>
     </properties>
@@ -37,9 +35,6 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.5.0</version>
                 <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>TestNGRunner.xml</suiteXmlFile>
-                    </suiteXmlFiles>
                     <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                     <testFailureIgnore>true</testFailureIgnore>
                     <failIfNoTests>false</failIfNoTests>

@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class HorizontalSliderTests extends BaseTests {
     @Test
-    public void testSlider()throws InterruptedException{
+    public void testSlider(){
        HorizontalSliderPage horizontalSliderPage= home.clickHorizontalSlider();
         float actualResult=horizontalSliderPage.moveSliderTo(4);
         float expectedResult=4;

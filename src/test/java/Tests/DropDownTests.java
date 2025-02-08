@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class DropDownTests extends BaseTests {
     DropDownPage dropDownPage;
     @Test
-    public void TC_checkSelected() throws InterruptedException {
+    public void TC_checkSelected() {
         DropDownPage dropdownPage= home.clickDropDown();
         String option="Option 1";
         dropdownPage.dropDownSelect(option);
