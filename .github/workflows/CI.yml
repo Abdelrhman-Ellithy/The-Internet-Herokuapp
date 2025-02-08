@@ -37,15 +37,9 @@ jobs:
       - name: Build and Run with Maven
         run: mvn clean test
 
-      - name: Generate Allure Report
-        run: |
-          mvn allure:report
-          mkdir -p LastReport
-          cp -r Test-Output/Reports/Allure/allure-results/* LastReport/
-
       - name: Upload Test Results
         uses: actions/upload-artifact@v4
         with:
           name: Test Report
-          path: LastReport/
+          path: Test-Output/Reports/Allure/allure-report/
           retention-days: 30
