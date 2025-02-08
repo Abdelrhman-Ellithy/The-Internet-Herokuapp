@@ -1,25 +1,20 @@
 package Pages;
 
+import Ellithium.Utilities.interactions.DriverActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class LoadingExample1 {
     WebDriver driver;
+    DriverActions driverActions;
     public LoadingExample1(WebDriver driver){
         this.driver=driver;
+        driverActions=new DriverActions<>(driver);
     }
     public void clickStartBtn()  {
-        driver.findElement(By.tagName("button")).click();
+        driverActions.clickOnElement(By.tagName("button"));
     }
     public String getText(){
-        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(5));
-        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("loading"))));
-        String text= driver.findElement(By.id("finish")).getText();
-        return text;
+        return driverActions.getText(By.id("finish"));
     }
 }

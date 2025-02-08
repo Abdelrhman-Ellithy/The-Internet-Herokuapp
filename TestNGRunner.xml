@@ -3,10 +3,12 @@
     <test name="Cross Browser Chrome">
         <classes>
             <class name="Tests.AlertsTests"/>
-<!--            <class name="Tests.DragDropTests"/>-->
-<!--            <class name="Tests.HorizontalSliderTests"/>-->
-<!--            <class name="Tests.DropDownTests"/>-->
-<!--            <class name="Tests.HoverPageTests"/>-->
+            <class name="Tests.DragDropTests"/>
+            <class name="Tests.HorizontalSliderTests"/>
+            <class name="Tests.DropDownTests"/>
+            <class name="Tests.HoverPageTests"/>
+            <class name="Tests.HorizontalSliderTests"/>
+            <class name="Tests.DynamicLoadingPageTests"/>
         </classes>
     </test>
 </suite>

@@ -1,9 +1,8 @@
 package Pages;
 
+import Ellithium.Utilities.interactions.DriverActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import Ellithium.Utilities.interactions.DriverActions;
-
 public class LoginPage {
     WebDriver driver;
     DriverActions driverActions;

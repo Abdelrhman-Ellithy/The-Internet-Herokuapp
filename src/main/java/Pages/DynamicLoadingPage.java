@@ -1,19 +1,16 @@
 package Pages;
 
+import Ellithium.Utilities.interactions.DriverActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
-import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 public class DynamicLoadingPage {
 
     WebDriver driver;
+    DriverActions driverActions;
     public DynamicLoadingPage(WebDriver driver){
         this.driver=driver;
+        driverActions=new DriverActions<>(driver);
     }
     /**
      * @param index starts at 1 end at 2
@@ -21,12 +18,11 @@ public class DynamicLoadingPage {
     public LoadingExample1 clickExample(int index) {
         switch (index){
             case 2 :
-                driver.findElement(By.partialLinkText("Example 2")).click();
+                driverActions.clickOnElement(By.partialLinkText("Example 2"));
                 return new LoadingExample1(driver) ;
             default:
-                driver.findElement(By.partialLinkText("Example 1")).click();
+                driverActions.clickOnElement(By.partialLinkText("Example 1"));
                 return new LoadingExample1(driver);
         }
     }
-
 }

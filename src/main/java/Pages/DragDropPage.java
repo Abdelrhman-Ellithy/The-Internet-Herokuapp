@@ -1,33 +1,44 @@
 package Pages;
 
+import Ellithium.Utilities.interactions.DriverActions;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
-
 public class DragDropPage {
     WebDriver driver;
+    DriverActions driverActions;
 
     public DragDropPage(WebDriver driver) {
         this.driver = driver;
+        driverActions=new DriverActions<>(driver);
     }
 
-    public void dragDropBox(int indexSource, int indexDestnation) {
-        Actions actions = new Actions(driver);
+    public void dragDropBox(int indexSource, int indexDestination) {
         switch (indexSource) {
             case 1:
-                actions.dragAndDrop(driver.findElement(By.id("column-a")), driver.findElement(By.id("column-b"))).perform();
+                driverActions.dragAndDrop(By.id("column-a"),By.id("column-b"));
                 break;
             case 2:
-                actions.dragAndDrop(driver.findElement(By.id("column-b")), driver.findElement(By.id("column-a"))).perform();
+                driverActions.dragAndDrop(By.id("column-b"),By.id("column-a"));
                 break;
         }
     }
 
     public String getBoxText(int index) {
-        switch (index){
-            case 1: return  driver.findElement(By.id("column-a")).findElement(By.tagName("header")).getText();
-            case 2: return driver.findElement(By.id("column-b")).findElement(By.tagName("header")).getText();
-            default: return "failed";
+        By parentLocator;
+
+        switch (index) {
+            case 1:
+                parentLocator = By.id("column-a");
+                break;
+            case 2:
+                parentLocator = By.id("column-b");
+                break;
+            default:
+                return "failed";
         }
+        By headerLocator = By.xpath("//*[@id='" + parentLocator.toString().split(": ")[1] + "']/header");
+        return driverActions.getText(headerLocator);
     }
+
+
 }
