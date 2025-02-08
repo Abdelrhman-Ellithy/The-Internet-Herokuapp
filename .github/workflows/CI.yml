@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
     strategy:
       matrix:
-        java-version: [21]
+        java-version: [21, 17]
     steps:
       - name: Check out code
         uses: actions/checkout@v4
@@ -37,9 +37,30 @@ jobs:
       - name: Build and Run with Maven
         run: mvn clean test
 
-      - name: Upload Test Results
+      - name: Upload Test Reports
         uses: actions/upload-artifact@v4
         with:
-          name: Test Report
-          path: Test-Output/Reports/Allure/allure-report/
+          name: Test-Reports
+          path: Test-Output/Reports/
+          retention-days: 30
+
+      - name: Upload Test Logs
+        uses: actions/upload-artifact@v4
+        with:
+          name: Test-Logs
+          path: Test-Output/Logs/
+          retention-days: 30
+
+      - name: Upload Failed Screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: Failed-Screenshots
+          path: Test-Output/ScreenShots/Failed/
+          retention-days: 30
+
+      - name: Upload Update Checker
+        uses: actions/upload-artifact@v4
+        with:
+          name: Update-Checker
+          path: Test-Output/UpdateChecker/
           retention-days: 30
