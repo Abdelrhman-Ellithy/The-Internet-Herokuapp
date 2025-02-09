@@ -56,7 +56,9 @@ jobs:
 
       - name: Run Tests
         id: run-tests
-        run: mvn clean test -Dtest="loginTests,AlertsTests,HorizontalSliderTests,DropDownTests,DragDropTests,HoverPageTests,DynamicLoadingPageTests" -Dsurefire.parallel=classes -DthreadCount=7 -DdataProviderThreadCount=7
+        run: |
+          mvn clean test -Dtest="loginTests,AlertsTests,HorizontalSliderTests,DropDownTests,DragDropTests,HoverPageTests,DynamicLoadingPageTests" -Dsurefire.parallel=tests -DthreadCount=7 -DdataProviderThreadCount=7
+          ls -l Test-Output/Reports/
 
       - name: Upload Test Reports
         if: always() && steps.run-tests.conclusion != 'skipped'

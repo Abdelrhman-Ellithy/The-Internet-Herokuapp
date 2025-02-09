@@ -18,7 +18,7 @@ public class BaseTests extends NonBDDSetup {
                 "true");
         PropertyHelper.setDataToProperties("src/main/resources/properties/allure.properties",
                 "allure.open.afterExecution",
-                "true");
+                "false");
     }
     @BeforeClass
     public void Setup(){
