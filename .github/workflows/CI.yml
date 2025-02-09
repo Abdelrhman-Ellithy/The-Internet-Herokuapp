@@ -57,9 +57,23 @@ jobs:
       - name: Run Tests
         id: run-tests
         run: |
-          mvn clean test -Dtest="loginTests,AlertsTests,HorizontalSliderTests,DropDownTests,DragDropTests,HoverPageTests,DynamicLoadingPageTests" -Dsurefire.parallel=tests -DthreadCount=7 -DdataProviderThreadCount=7
-          ls -l Test-Output/Reports/
+          mvn clean test -Dtest="loginTests,AlertsTests,HorizontalSliderTests,DropDownTests,DragDropTests,HoverPageTests,DynamicLoadingPageTests" -Dsurefire.parallel=classes -DthreadCount=7 -DdataProviderThreadCount=7
+      
+      - name: Listing Folders
+        run: |
+          echo "Project root directory structure:"
+          find . -type d -maxdepth 1 -print
+          
+          echo "\nFull project directory structure:"
+          find . -type f -print
+          
+          echo "\nTest Output directory structure:"
+          find Test-Output -type f -print
+          
+          echo "\nDetailed Allure Reports structure:"
+          find Test-Output/Reports/Allure -type f -print
 
+      
       - name: Upload Test Reports
         if: always() && steps.run-tests.conclusion != 'skipped'
         uses: actions/upload-artifact@v4
