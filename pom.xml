@@ -8,7 +8,7 @@
     <version>1.0-SNAPSHOT</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <Ellithiumversion>2.0.0</Ellithiumversion>
+        <Ellithiumversion>2.0.2</Ellithiumversion>
     </properties>
     <dependencies>
         <dependency>
@@ -38,6 +38,19 @@
                     <reportsDirectory>${project.build.directory}/surefire-reports</reportsDirectory>
                     <testFailureIgnore>true</testFailureIgnore>
                     <failIfNoTests>false</failIfNoTests>
+                    <systemPropertyVariables>
+                        <testng.dtd.http>true</testng.dtd.http>
+                    </systemPropertyVariables>
+                    <failIfNoSpecifiedTests>false</failIfNoSpecifiedTests>
+                    <trimStackTrace>false</trimStackTrace>
+                    <useFile>false</useFile>
+                    <encoding>UTF-8</encoding>
+                    <properties>
+                        <property>
+                            <name>listener</name>
+                            <value>Ellithium.core.execution.listener.CustomTestNGListener</value>
+                        </property>
+                    </properties>
                 </configuration>
             </plugin>
             <!-- Exec Maven Plugin -->
