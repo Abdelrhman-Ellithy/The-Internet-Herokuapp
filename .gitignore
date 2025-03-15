@@ -5,6 +5,7 @@ target/
 
 target/*
 Test-Output/ScreenShots/*
+Test-Output/Logs/*
 Test-Output/Reports/Allure/allure-results/*
 Test-Output/Reports/Allure/allure-report/*
 ### IntelliJ IDEA ###
